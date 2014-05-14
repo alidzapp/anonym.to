@@ -1,0 +1,148 @@
+* { 
+	margin: 0; 
+	padding: 0;
+}
+
+body { 
+	background: #000; 
+	font-size: 87.5%;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", tahoma, verdana, arial, sans-serif;
+	color: #999; 
+}
+
+#page { 
+	background: #292929; 
+	margin: 0px auto; 
+	padding-bottom: 10px; 
+	width: 700px;
+}
+
+#header { 
+	margin: 0px 20px; 
+	width: 700px; 
+	height: 20px;
+}
+
+#content {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.lang_content {
+	font-size: 13px;
+}
+
+.nav_symbols img {
+	border: 2px solid #999;
+}
+
+#content h1 {
+	margin: 10px 0px;
+	padding-bottom: 12px;
+	border-bottom: 1px dotted #999;
+	font: bold 22px "Century Gothic", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+	color: #EEE;
+	line-height: 1em;	
+	text-align: center;
+}
+
+h2 {
+	font: 1.5em "Century Gothic", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+	padding: 0.7em 0;
+	color: #EEE;
+}
+
+#footer {
+	margin-top: 30px;
+	clear: both;
+	text-align: center;
+}
+
+#footer_inside {
+	font-size: 12px;
+}
+
+img {
+	border: 0; 
+}
+
+a {
+	color: #FF8301;
+	
+}
+	
+a:hover {
+	text-decoration: none;
+}
+
+.de, .es, .en, .nl, .ru {
+	border: 1px solid #666;
+	margin: 10px;
+	height: 210px;
+	text-align: center;
+	width: 164px;
+	background: #404040;
+}
+
+.de, .es, .en, .nl, .ru {
+	float: left;
+}
+
+.inside p {
+	font-size: .88em;
+	
+}
+
+.de a, .es a, .en a, .nl a, .ru a {
+	font-weight: bold;
+}
+
+.clearer {
+	clear: both;
+}
+
+.sp16 {
+	height: 16px;
+}
+
+fieldset {
+	border: 0;
+	color: #999;	
+	font: bold 11px Verdana, arial, helvetica, sans-serif;
+	padding: 8px 0;
+}
+
+label {
+	display: block;
+	font-weight: normal;
+	margin-bottom: 8px;
+}
+
+textarea {
+	display: block;
+	background: #bbb;
+	height: 100px;
+	margin-bottom: 6px;
+	overflow: auto;
+	width: 570px;
+}
+	
+input, button, textarea {
+	border: 1px solid #666;
+}
+
+input#keywordsInput {
+	background: #bbb;
+	margin-bottom: 6px;
+	width: 570px;
+}
+
+input#markAll, input#submitButton, .anonym_FormSubmit {
+	background: #404040;
+	color: #999;
+}
+
+.anonym_input {
+	background: #bbb;
+	width: 400px;
+}
